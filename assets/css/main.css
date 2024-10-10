@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+  background-color: #DFC5FE;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #433159;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.questions-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 64px;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.questions h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}
+
+.questions p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #7B5AA2;
+}
